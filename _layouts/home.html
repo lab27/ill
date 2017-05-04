@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+  <!--<h5 class="my-name">Nick Niles</h5>-->
+  <h1 class="page-heading">Illustration</h1>
+  
+  {{ content }}
+
+    {% for ill in site.data.ill %}
+      <div class="ill pos-{% cycle 'right', 'left' %} {{ill.extraclass}}">
+        <img src="assets/img/{{ill.url}}" alt="{{ill.title}}">
+        <h3 class="ill-title">{{ill.title}}</h3>
+      </div>
+    {% endfor %}
+
+
+</div>
