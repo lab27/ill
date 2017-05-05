@@ -1,27 +1,42 @@
-- title: 'Post: Mail'
+- title: White Risk (Web Platform)
+  url: wr1.gif
+  desc: '3D modeling, design & animation'
+- title: 'Collaborate (Promo Film)'
+  url: network.gif
+  desc: '3D modeling, illustration & animation'
+- title: 'Swiss Post (Promo)'
   url: mail.gif
-- title: 'Post: Safe'
+  desc: '3D modeling & animation'
+- title: 'Swiss Post (Promo)'
   url: safe.gif
-- title: Julie James
+  desc: '3D modeling & animation'
+- title: Collecture 1 (Mobile App)
+  url: collecture1.jpg
+  desc: 'Illustration, design & front-end development'
+- title: Collecture 2 (Mobile App)
+  url: collecture2.jpg
+  desc: 'Illustration'
+- title: Julie James (Poster)
   url: jj.jpg
-- title: Rock Bottom
+  desc: 'Illustration'
+- title: Rock Bottom (Animated Film)
   url: falling.jpg
-- title: Deal Dash
+  desc: 'Illustration & animation'
+- title: Deal Dash (Promo Film)
   url: dealdash.jpg
+  desc: 'Illustration & animation'
 - title: Food
   url: food.jpg
-- title: Caesar
+  desc: 'Illustration'
+- title: Caesar (Commercial)
   url: caesar.jpg
+  desc: 'Illustration & animation'
   extraclass: wide
-- title: Kitchen
+- title: Watts Up (Tablet Game)
   url: wattsup-kitchen.jpg
+  desc: 'Illustration & 3D modeling'
   extraclass: wide
-- title: Arch-Vis
-  url: kitchen.jpg
-- title: Origins
-  url: origins.jpg
-- title: 3D
-  url: blackmadonna.jpg
-  extraclass: wide
-- title: Sea Change
-  url: seachange.jpg
+# - title: Arch-Vis
+#   url: kitchen.jpg
+# - title: Origins
+#   url: origins.jpg

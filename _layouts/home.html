@@ -4,14 +4,22 @@ layout: default
 
 <div class="home">
   <!--<h5 class="my-name">Nick Niles</h5>-->
-  <h1 class="page-heading">Illustration</h1>
+  <h1 class="page-heading">Illustration &amp; <br> Animation</h1>
   
-  {{ content }}
+  <!--{{ content }}-->
+
+  <div class="ill pos-left flexVideo">
+    <iframe src="https://player.vimeo.com/video/125768244" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <h3 class="ill-title">ZHdK Incubator (Promo Film)</h3>
+    <p class="ill-desc">My role: 3D modeling, illustration &amp; animation</p>
+
+  </div>
 
     {% for ill in site.data.ill %}
       <div class="ill pos-{% cycle 'right', 'left' %} {{ill.extraclass}}">
         <img src="assets/img/{{ill.url}}" alt="{{ill.title}}">
         <h3 class="ill-title">{{ill.title}}</h3>
+        <p class="ill-desc">My role: {{ill.desc}}</p>
       </div>
     {% endfor %}
 

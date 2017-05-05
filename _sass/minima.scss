@@ -58,6 +58,8 @@ body {
 h1.page-heading {
   font-size: 3rem;
   grid-column-start: 1;
+  grid-column-end: 5;
+  line-height: 1;
 }
 .my-name {
   grid-column-start: 1;
@@ -74,7 +76,14 @@ h1.page-heading {
   margin: 24px;
 }
 
+.ill-title {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
 
+.ill-desc {
+  color: rgba(black, .5);
+}
 
 .pos-right {
   grid-column-start: 4;
