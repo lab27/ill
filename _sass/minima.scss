@@ -55,12 +55,21 @@ body {
   padding: 24px; 
 }
 
-h1.page-heading {
-  font-size: 3rem;
+.page-heading {
+  // font-size: 3rem;
   grid-column-start: 1;
   grid-column-end: 5;
   line-height: 1;
+  margin-bottom: 3rem;
+  a {
+    color: rgba(black, .5);
+  }
 }
+
+h1 {
+  font-size: 3rem;
+}
+
 .my-name {
   grid-column-start: 1;
 }
