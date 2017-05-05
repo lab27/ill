@@ -61,6 +61,7 @@ body {
   grid-column-end: 5;
   line-height: 1;
   margin-bottom: 3rem;
+
   a {
     color: rgba(black, .5);
   }
@@ -79,10 +80,17 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: left;
   grid-gap: 12px 12px;
+    @include media-query($on-palm) {
+    display: block;
+  }
 }
 
 .ill {
   margin: 24px;
+    @include media-query($on-palm) {
+    margin: 0;
+    margin-bottom: 48px;
+  }
 }
 
 .ill-title {
@@ -110,3 +118,21 @@ h1 {
   }
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  min-width: 50vw;
+   @include media-query($on-palm) {
+     min-width: inherit;
+   }
+  
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
